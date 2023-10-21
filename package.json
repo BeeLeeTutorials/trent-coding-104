@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "./node_modules/.bin/http-server public",
-    "windows-serve": ".\\node_modules\\.bin\\http-server public"
+    "serve": "./node_modules/.bin/http-server workspace",
+    "windows-serve": ".\\node_modules\\.bin\\http-server workspace",
+    "serve-example": "./node_modules/.bin/http-server example",
+    "windows-serve-example": ".\\node_modules\\.bin\\http-server example"
   },
   "author": "",
   "license": "ISC",
