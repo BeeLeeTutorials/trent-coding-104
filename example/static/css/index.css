@@ -1,0 +1,27 @@
+
+body {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.page-container {
+    padding: 8px 8px;
+}
+
+ul.todolist {
+    list-style-type: none; /* removes the default bullet point */
+    padding-left: 4px;
+}
+
+ul.todolist li::before {
+    content: "🟩 "
+}
+
+ul.todolist li.checked::before {
+    content: "✅ ";
+}
+
+li.checked span {
+    text-decoration: line-through;
+    color: #AEAEAE;
+}
